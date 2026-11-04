@@ -1,6 +1,8 @@
-# 전자레인지 (Basys3)
+# FSM 기반 전자레인지 제어 시스템 RTL 설계 및 FPGA 구현
 
-Basys3(xc7a35tcpg236-1)로 상용 전자레인지 기능을 구현한 Verilog 프로젝트 (Vivado 2020.2)
+Basys3(xc7a35tcpg236-1)에서 로터리 엔코더 시간 설정, 서보 문 개폐, 턴테이블 모터 PWM, 부저 효과음을 하나의 FSM으로 묶어 상용 전자레인지 기능을 구현한 Verilog 프로젝트입니다.
+
+`Verilog HDL` · `Vivado 2020.2` · `Basys3` · `FSM` · `PWM` · `Rotary Encoder`
 
 ## 기능 (요구사항 대응)
 | # | 요구사항 | 구현 |
